@@ -1,0 +1,92 @@
+<p>
+  Assignment!
+  </p>
+  <div class="container">
+      <form #userForm="">
+          {{ userForm.value | json }}
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">product Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="product name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+              <label for="lname">Brand</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="">
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Categoriy</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="Categoriy">
+              <option value="men">men</option>
+              <option value="women">women</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-25">
+              <label for="lname">price</label>
+            </div>
+            <div class="col-75">
+              <input type="number" id="lname" name="lastname" placeholder="0">
+            </div>
+        </div>
+
+
+          <div class="row">
+              <div class="col-25">
+                <label for="lname">Quantity</label>
+              </div>
+              <div class="col-75">
+                <input type="number" id="lname" name="lastname" placeholder="0">
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">image</label>
+              </div>
+              <div class="col-75">
+                <input type="file" id="lname" name="lastname" placeholder="">
+              </div>
+            </div>
+
+
+          
+
+
+        <div class="row">
+          <input type="submit" value="Submit">
+          
+        </div>
+      </form>
+    </div>
+    
